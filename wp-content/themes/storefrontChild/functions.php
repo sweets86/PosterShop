@@ -33,7 +33,7 @@ function public_store_post_types()
 add_action('init', 'public_store_post_types');
 
 function poster_features() {
-   add_image_size('map', 300, 260, true);
+   add_image_size('map', 800, 450, true);
    /* add_theme_support('post-thumbnails'); */
 }
 
