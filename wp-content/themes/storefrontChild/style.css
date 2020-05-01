@@ -2,3 +2,17 @@
 Theme Name: Child Storefront
 Template: storefront
 */
+
+.min-list {
+    padding: 0;
+    margin: 0;
+}
+
+.link-list {
+    padding: 1rem 0;
+    /* font-size: 1.5rem; */
+    border-bottom: 1px dotted #DEDEDE;
+    border-bottom: none;
+    color: rgb(136, 132, 132);
+    list-style: none;
+}
