@@ -2,18 +2,18 @@
 
 /*
 
-* Template Name: Ny Mallfil
+* Template Name: TEST Mallfil
 
 */
 
 ?>
 
-Hejj hej hej ny mallfil.
+Hej hej hej ny mallfil.
 
 <?php
 /*
 storefront_popular_products(array());
-die('Bannan');
+die('Banan');
 */
 
 ?>

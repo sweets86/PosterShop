@@ -17,7 +17,7 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-<h4>Kommentarfält</h4>
+
 <section id="comments" class="comments-area" aria-label="<?php esc_html_e( 'Post Comments', 'storefront' ); ?>">
 
 	<?php

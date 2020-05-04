@@ -6,7 +6,7 @@
  */
 
 ?>
-<h4>Detta är content.php, visas på alla poster.</h4>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php

@@ -16,7 +16,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-        <h4>Detta är Footer</h4>
+
 			<?php
 			/**
 			 * Functions hooked in to storefront_footer action

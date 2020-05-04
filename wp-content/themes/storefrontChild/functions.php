@@ -5,12 +5,12 @@ function printPoster()
    echo  '<h4>Hej hej hej</h4>';
 }
 
-//add_action('homepage', 'printPoster');
+//add_action('homepage', 'printPoster'); --> Exempel på deklarera, anropa funktion i specifik template. <--
 ?>
 
 <?php
 
-function public_store_post_types()
+function public_store_post_types() // Deklarera och skapa ny Post Type (Store)
 {
    // Store Post Type
    register_post_type('store', array(
@@ -30,14 +30,14 @@ function public_store_post_types()
    ));
 }
 
-add_action('init', 'public_store_post_types');
+add_action('init', 'public_store_post_types'); // Anropa och publicera ny Post Type (Store)
 
 function poster_features() {
    add_image_size('map', 800, 450, true);
    /* add_theme_support('post-thumbnails'); */
 }
 
-add_action('after_setup_theme', 'poster_features');
+add_action('after_setup_theme', 'poster_features'); // Image style
 
 
 function shop_files()
@@ -46,7 +46,7 @@ function shop_files()
    wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyDVFCr8WjO758-TkJEosYh8EL37Labnn_U', NULL, '1.0', true);
 }
 
-add_action('wp_enqueue_scripts', 'shop_files');
+add_action('wp_enqueue_scripts', 'shop_files'); // Anropar den deklarerade funktionen ovan som hämtar script (GoogleMap.js) och även länken till Google Maps key för API:et Google Map.
 
 function posterShopMapKey($api)
 {
@@ -54,5 +54,5 @@ function posterShopMapKey($api)
    return $api;
 }
 
-add_filter('acf/fields/google_map/api', 'posterShopMapKey');
+add_filter('acf/fields/google_map/api', 'posterShopMapKey'); // Lägga till filter som genom funktionen ovan deklareras och sätter nyckel-värdet till API:et.
 ?>
