@@ -40,19 +40,19 @@ function poster_features() {
 add_action('after_setup_theme', 'poster_features');
 
 
-/* function shop_files()
+function shop_files()
 {
    wp_enqueue_script('googleMap.js', get_theme_file_uri('/js/GoogleMap.js'), NULL, '1.0', true);
-   wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=', NULL, '1.0', true);
+   wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyDVFCr8WjO758-TkJEosYh8EL37Labnn_U', NULL, '1.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'shop_files');
 
 function posterShopMapKey($api)
 {
-   $api['key'] = "";
+   $api['key'] = "AIzaSyDVFCr8WjO758-TkJEosYh8EL37Labnn_U";
    return $api;
 }
 
 add_filter('acf/fields/google_map/api', 'posterShopMapKey');
-?> */
+?>
