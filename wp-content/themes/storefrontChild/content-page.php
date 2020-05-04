@@ -6,7 +6,7 @@
  */
 
 ?>
-<h4>Detta är content-page, används inte för blogg och shop.</h4>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php
 	/**

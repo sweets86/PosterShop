@@ -6,7 +6,7 @@
  */
 
 ?>
-<h4>Detta är content-single, Enskilda Post/Inlägg sidor</h4>
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<?php

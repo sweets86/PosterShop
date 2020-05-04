@@ -16,7 +16,6 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
-    <h4>Detta är index.php, aktuell för denna är Blogg-sidan.</h4>
 		<?php
 		if (have_posts()) :
 

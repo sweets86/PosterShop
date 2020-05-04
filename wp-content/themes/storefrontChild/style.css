@@ -10,9 +10,6 @@ Template: storefront
 
 .link-list {
     padding: 1rem 0;
-    /* font-size: 1.5rem; */
-    border-bottom: 1px dotted #DEDEDE;
-    border-bottom: none;
     color: rgb(136, 132, 132);
     list-style: none;
 }

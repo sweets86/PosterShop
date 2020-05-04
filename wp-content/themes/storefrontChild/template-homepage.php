@@ -17,7 +17,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
-        <?php // printPoster(); ?>
+        <?php // printPoster(); ?> <!-- printPoster() är endast test, finns i functions.php -->
         <?php
         /**
          * Functions hooked in to homepage action

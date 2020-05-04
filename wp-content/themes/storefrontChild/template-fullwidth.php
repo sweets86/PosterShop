@@ -11,7 +11,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-    <h4>Detta är template-fullwidth.php</h4>
 			<?php
 			while ( have_posts() ) :
 				the_post();
